@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- mga meta tags for character set, viewport, and title -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Link sa Boxicons CSS boxicons is yung popular na icon library na nag pprovide ng icon para sa web development -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link sa CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <a href="#home" class="logo">Personal Portfolio</a>
+
+        <!-- Menu icon for mobile navigation -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!-- My Navigation links -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <!-- Content about me -->
+            <h3>Hi!! It's me</h3>
+            <h1>Ed Richmond</h1>
+            <h3>Aspiring <span class="multiple-text"></span></h3>
+            <p>
+                I'm Ed Richmond Buenaventura, a second-year student at Laguna State Polytechnic University, Siniloan Campus. I have a passion for coding and editing various types of content. Additionally, I enjoy designing, particularly for websites. My goal is to achieve my dream of becoming a web developer or software developer someday. I love the process of creating visually appealing and user-friendly websites that provide great user experiences.
+            </p>
+            <!--  MY Social media links -->
+            <div class="social-media">
+                <a href="https://www.instagram.com/ed_db12?igsh=MWIwaHZpcDRqdGRoZQ==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/EDDB12" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/e-r-806400310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/RichmondED" target="_blank"><i class='bx bx-link'></i></a>
+            </div>
+            <!-- Button to my view resume -->
+            <a href="https://drive.google.com/file/d/1uvStDooTuHpef_IARMghJU9_T6fTx3fW/view?usp=drive_link" target="_blank" class="btn">GoTo Resume</a>
+        </div>
+        <!-- Image of mine my profile -->
+        <div class="home-img">
+            <img src="images/newProfileImage.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- my another images for my about section -->
+            <img src="images/newAboutImage.png" alt="About Image">
+        </div>
+        <div class="about-content">
+            <!-- Content about me -->
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+            <h3>Aspiring Web Developer</h3>
+            <p>
+                I'm Ed Richmond Buenaventura, a second-year student at Laguna State Polytechnic University, Siniloan Campus. I have a passion for coding and editing various types of content. I aspire to become a web developer soon because this is what I love to do. I enjoy working on personal projects that allow me to explore new technologies and improve my skills. I am proficient in languages such as HTML, CSS, and JavaScript. My goal is to create engaging, user-friendly websites and applications that provide value to users.
+            </p>
+            <!-- Button to read more -->
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="heading">Skills</h2>
+            <div class="skills-container">
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bar">
+                        <p>HTML <span>85%</span></p>
+                        <div class="progress-bar" style="--progress: 85%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <p>CSS <span>60%</span></p>
+                        <div class="progress-bar" style="--progress: 60%;"></div>
+                    </div>
+                    <div class="skill-bar">
+                        <p>JavaScript <span>50%</span></p>
+                        <div class="progress-bar" style="--progress: 50%;"></div>
+                    </div>
+                    <!-- Add more skill bars as needed -->
+                </div>
+                <div class="professional-skills">
+                    <h3>Professional Skills</h3>
+                    <div class="circular-bar">
+                        <div class="circular-progress-container">
+                            <div class="circular-progress-text">Communication</div>
+                            <div class="circular-progress" data-percentage="90" style="--percentage: 90;"></div>
+                        </div>
+                        <div class="circular-progress-container">
+                            <div class="circular-progress-text">Creativity</div>
+                            <div class="circular-progress" data-percentage="70" style="--percentage: 70;"></div>
+                        </div>
+                        <div class="circular-progress-container">
+                            <div class="circular-progress-text">Teamwork</div>
+                            <div class="circular-progress" data-percentage="80" style="--percentage: 80;"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <!-- my portfolio sectionnnn -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolioown.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Ed</h4>
+                    <p>This is my own creation of Personal Portfolio for our final projects </p>
+                    <a target="_blank" href="https://github.com/EDDB12"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/pyboxer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>PyBoxer</h4>
+                    <p>My own creation of games using Python this is my final project in ITEP206 called PyBoxer</p>
+                    <a target="_blank" href="https://www.facebook.com/100003527546151/videos/428525296480186/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/slideshow.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Slideshow</h4>
+                    <p> A slideshow using html and css activity.</p>
+                    <a target="_blank" href="https://github.com/EDDB12"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/quiz.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Interactive Quiz</h4>
+                    <p>A interactive Quiz using HTML and CSS this quiz is about History .</p>
+                    <a href="https://github.com/EDDB12" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Trempt.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Business Website</h4>
+                    <p>this is our Final Project we create a website for a business.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/dart.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>PyDart</h4>
+                    <p>A simple game development using python language a Pydart Game</p>
+                    <a target="_blank" href="https://github.com/EDDB12"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Contact section -->
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form  action="#">
+        <!-- Form for contacting the user -->
+        <div class="input-box">
+            <input type="text" name = "name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="number" name="number" placeholder="Mobile Number">
+            <input type="text" name="subject" placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+        <!-- Button to submit message -->
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!-- Footer section -->
+<footer class="footer">
+    <div class="footer-text">
+        <!-- Footer text with my name -->
+        <p>&copy; 2024 Ed Richmond Buenaventura. All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <!-- Link to scroll back to the top yung arrow  -->
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+
+<!-- Script to reveal elements on scroll -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Script for typing effect -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
